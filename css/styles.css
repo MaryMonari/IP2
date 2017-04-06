@@ -1,0 +1,138 @@
+@import https://fonts.googleapis.com/css?family=Source+Sans+Pro;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+  body {
+    background:#F15a29;
+    color: #F15A29;
+    font-family:'Source Sans Pro', sans-serif;
+  }
+  .banner {
+    min-height: 500px;
+    background:url("../img/backgrounds/landing.jpg") no-repeat;
+  }
+  .menu {
+    position: relative;
+   display: inline-block;
+   width: 3em;
+   height: 1em;
+   margin-top: 1.0em;
+   margin-right: 0.3em;
+   border-top: 0.2em solid #fff;
+   border-bottom: 0.2em solid #fff;
+}
+ .menu:before {
+   content: "";
+   position: absolute;
+   top: 0.3em;
+   left: 0px;
+   width: 100%;
+   border-top: 0.2em solid #fff;
+}
+  .image {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+  }
+h1 {
+   position: absolute;
+   top: 300px;
+   left: 0;
+   width: 100%;
+   text-align: center;
+   font-weight: 100;
+ }
+span {
+  color: white;
+  padding: 10px;
+ }
+ /*End Banner*/
+
+ .foodtop {
+   min-height: 200px;
+ }
+#left1 , #left2 {
+  line-height: 100%;
+  padding: 5% 0;
+  font-weight: lighter;
+}
+#left1 , #left2 {
+  text-align: center;
+}
+#left1 {
+  color: darkgrey;
+  padding: 0;
+  background-color: #F5F5F5;
+  height: 80px;
+}
+#left2 {
+  color: white;
+  padding: 0;
+  background-color: #F15a29;
+  height: 80px;
+}
+.one-fourth {
+  float: left;
+  width: 25%;
+}
+/*End Foottop*/
+.description {
+  background-color: white;
+}
+.inner-wrapper1 {
+  float: left;
+  width: 100%;
+  text-align: left;
+  padding: 10%;
+  margin: 5% auto;
+}
+#fastfoodimg {
+  border: 1px solid whitesmoke;
+  width: 50%;
+}
+.inner-wrapper2 {
+  float: left;
+  width: 100%;
+  text-align: right;
+  padding: 10%;
+  margin:5% auto;
+}
+#drinksimg {
+  border: 1px solid whitesmoke;
+  width: 50;
+}
+.button {
+  color: #F15a29;
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+  border: 1px solid #F15a29;
+  padding: 0.5%;
+  margin: 2px auto;
+}
+
+.body2 {
+  display: block;
+  text-align: center;
+}
+/*did this without wi-fi*/
+/*set width of the above sections to 50%-see if they'll
+fall on the same line*/
+
+/*section-body2*/
+/*
+.body2 {
+  min-height: 300px;
+  background: url(../img/backgrounds/foodsBg.jpg );
+}
+fast food-colour orange
+.row {
+marign and border setting size, solid colour white
+}
+
+ */
